@@ -4,9 +4,8 @@ If you have a large datset that includes more than hundred thousand items,
 And they get added to your DOM, every time in batches as soon as the user scrolls
 to the end of the current viewport.
 
-Can you see the problem here, even if 20 - 30 items are visible to the user you may have
-hundreds of thousand of items on your DOM.
-Issues
+
+**Issues**
 
 
 # Memory Usage:
