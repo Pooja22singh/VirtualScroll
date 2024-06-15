@@ -1,4 +1,4 @@
-Virtual Scrolling
+# Virtual Scrolling
 
 If you have a large datset that includes more than hundred thousand items, 
 And they get added to your DOM, every time in batches as soon as the user scrolls
