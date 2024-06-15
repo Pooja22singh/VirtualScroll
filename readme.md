@@ -46,9 +46,9 @@ Implementing virtual scrolling typically becomes beneficial when dealing with a 
 4. Thresholds to Consider:
 Less than 100 items: In general, if your list or grid consistently contains fewer than 100 items and scrolling performance is acceptable on a variety of devices and browsers, virtual scrolling may not be necessary.
 
-100-200 items: Once you approach or exceed 100 items, especially if these items are complex or include media (images, videos), you may start to notice performance impacts on lower-end devices. This is a good range to consider implementing virtual scrolling to maintain responsiveness.
+    100-200 items: Once you approach or exceed 100 items, especially if these items are complex or include media (images, videos), you may start to notice performance impacts on lower-end devices. This is      a good range to consider implementing virtual scrolling to maintain responsiveness.
 
-More than 200 items: If your list or grid regularly contains more than 200 items, or if you anticipate scalability to this level, virtual scrolling becomes increasingly beneficial to manage DOM size and improve scrolling performance.
+   More than 200 items: If your list or grid regularly contains more than 200 items, or if you anticipate scalability to this level, virtual scrolling becomes increasingly beneficial to manage DOM size and    improve scrolling performance.
 
 5. Implementation Considerations:
 User Interaction: Virtual scrolling should not compromise user experience. Users should still be able to scroll smoothly, and items should load dynamically as needed without noticeable delays.
