@@ -53,4 +53,4 @@ Less than 100 items: In general, if your list or grid consistently contains fewe
 5. Implementation Considerations:
 User Interaction: Virtual scrolling should not compromise user experience. Users should still be able to scroll smoothly, and items should load dynamically as needed without noticeable delays.
 
-6. Testing and Optimization: Measure performance on different devices and browsers to determine when virtual scrolling becomes necessary. Use performance profiling tools to identify bottlenecks and optimize accordingly.
+6. Testing and Optimization:  Performance on different devices needs to be measured and browsers to determine when virtual scrolling becomes necessary. Performance profiling tools can help to identify bottlenecks and optimize accordingly.
